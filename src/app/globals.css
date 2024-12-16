@@ -1,0 +1,300 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles.css */
+
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 16px 32px;
+    border-bottom: 2px solid #fbd200; /* yellow border */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+  
+  /* Logo/Text Styling */
+  .logo {
+    color: #fbd200; /* yellow text */
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  }
+  
+  /* Navigation Menu Styling */
+  .nav {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav a {
+    color: #fbd200; /* yellow text */
+    font-weight: bold;
+    font-size: 1.125rem;
+    padding: 8px 16px;
+    border-radius: 9999px;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .nav a:hover {
+    background-color: #fbd200;
+    color: #d91c7e; /* pink color */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+
+  /* home.css */
+
+/* Background Gradient */
+.bg-gradient {
+    background: linear-gradient(to right, #6a0dad, #e91e63, #ffeb3b); /* Purple to Pink to Yellow */
+    min-height: 100vh;
+  }
+  
+  /* Main Content Styling */
+  .main-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 1rem;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Welcome Heading Styling */
+  .welcome-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fbd200;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Intro Paragraph Styling */
+  .intro-paragraph {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-bottom: 2rem;
+    color: white;
+  }
+  
+  /* Action Button Styling */
+  .action-btn {
+    display: inline-block;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border: 2px solid #fbd200;
+    border-radius: 9999px;
+    transition: all 0.3s ease;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .action-btn:hover {
+    background-color: #fbd200;
+    color: black;
+    transform: scale(1.1);
+  }
+  
+  /* Button Container Styling */
+  .btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  @media (min-width: 640px) {
+    .btn-container {
+      flex-direction: row;
+      gap: 2rem;
+    }
+  }
+  
+  /* Intro Text Styling */
+  .intro-text {
+    margin-top: 3rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: white;
+  }
+  
+  /* Services Button Styling */
+  .services-btn {
+    display: inline-block;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border: 2px solid #fbd200;
+    border-radius: 9999px;
+    transition: all 0.3s ease;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .services-btn:hover {
+    background-color: #fbd200;
+    color: black;
+    transform: scale(1.1);
+  }
+  
+  /* contact.css */
+
+/* Main Background Styling */
+.contact-bg {
+    background: linear-gradient(to right, #6a0dad, #e91e63, #ffeb3b); /* Purple to Pink to Yellow */
+    min-height: 100vh;
+  }
+  
+  /* Content Container Styling */
+  .contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 1rem;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  /* Heading Styling */
+  .contact-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fbd200;
+    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Paragraph Styling */
+  .contact-paragraph {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-bottom: 2rem;
+    color: white;
+  }
+  
+  /* Button Styling */
+  .contact-btn {
+    display: inline-block;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border: 2px solid #fbd200;
+    border-radius: 9999px;
+    transition: all 0.3s ease;
+    color: white;
+    text-transform: uppercase;
+    margin: 0.5rem;
+  }
+  
+  .contact-btn:hover {
+    background-color: #fbd200;
+    color: black;
+    transform: scale(1.1);
+  }
+  
+  /* Button Container Styling */
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  /* contact.css */
+
+/* Main Background Styling */
+.contact-bg {
+    background: linear-gradient(to right, #9c27b0, #ff4081, #ffeb3b); /* Purple to Pink to Yellow gradient */
+    min-height: 100vh;
+    padding: 3rem 0;
+  }
+  
+  /* Content Container Styling */
+  .contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 3rem;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 1.5rem;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .contact-content:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Heading Styling */
+  .contact-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fbd200;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+  }
+  
+  /* Contact Info Paragraph Styling */
+  .contact-paragraph {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-bottom: 2rem;
+    color: white;
+  }
+  
+  /* Link Styling */
+  .contact-link {
+    color: #fbd200;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-link:hover {
+    color: #ff4081;
+  }
+  
+  /* Button Styling */
+  .contact-btn {
+    display: inline-block;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border: 2px solid #fbd200;
+    border-radius: 9999px;
+    transition: all 0.3s ease;
+    color: white;
+    text-transform: uppercase;
+    margin: 0.5rem;
+    font-size: 1.125rem;
+  }
+  
+  .contact-btn:hover {
+    background-color: #fbd200;
+    color: black;
+    transform: scale(1.1);
+  }
+  
+  /* Button Container Styling */
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
